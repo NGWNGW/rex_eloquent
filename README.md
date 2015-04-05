@@ -88,19 +88,19 @@ Or edit autoload_classmap.php with editor:
 vendor/coposer/autoload_classmap.php
 ```
 
-Output Eloquent ORM (Testclass)
+Output Eloquent ORM (Testmodel)
 -------------
 ```php
 <?php
 
-$item = Testclass::first();
+$item = Testmodel::first();
 
 print $item->name;
 print $item->createdate->format('d.m.Y');
 
 // or
 
-$items = Testclass::where('status', 1)->orderBy('updatedate', 'desc')->take(5)->get();
+$items = Testmodel::where('status', 1)->orderBy('updatedate', 'desc')->take(5)->get();
 
 foreach($items as $item) {
     print $item->name;
@@ -116,12 +116,12 @@ foreach($items as $item) {
 
 ```
 
-Output Eloquent ORM with pagination (Testclass)
+Output Eloquent ORM with pagination (Testmodel)
 -------------
 ```php
 <?php
 
-$items = Testclass::where('status', 1)->orderBy('updatedate', 'desc')->paginate(5);
+$items = Testmodel::where('status', 1)->orderBy('updatedate', 'desc')->paginate(5);
 
 foreach($items as $item) {
     print $item->name;
