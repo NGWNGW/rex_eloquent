@@ -66,11 +66,11 @@ class Testmodel extends Eloquent {
     }
 
     public function parent() {
-        return $this->belongsTo('Testclass', 're_id');
+        return $this->belongsTo('Testmodel', 're_id');
     }
 
     public function children() {
-        return $this->hasMany('Testclass', 're_id');
+        return $this->hasMany('Testmodel', 're_id');
     }
 }
 ```
