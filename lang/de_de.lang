@@ -1,0 +1,15 @@
+eloquent_addon_help =
+
+eloquent_help = Hilfe
+
+eloquent_start_title = Eloquent für REDAXO
+
+eloquent_help_chapter_readme = Readme
+eloquent_help_chapter_docs = Eloquent Docs
+eloquent_help_chapter_queries = Query Builder Docs
+eloquent_help_chapter_changelog = Changelog
+eloquent_help_chapter_license = Lizenz
+
+eloquent_install_make_dir = Der Ordner "/redaxo/include/{0}/" kann nicht angelegt werden, überprüfen Sie die Schreibrechte oder legen Sie den Ordner von Hand an und geben ihm Schreibrechte.
+eloquent_install_perm_dir = Der Ordner "/redaxo/include/{0}/" benötigt Schreibrechte!
+

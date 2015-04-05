@@ -1,0 +1,17 @@
+{
+    "repositories": [
+      {
+        "type": "vcs",
+        "url": "https://github.com/joseph-montanez/paginator"
+      }
+    ],
+    "require": {
+        "illuminate/database": "~4.2",
+        "joseph-montanez/paginator": "dev-master"
+    },
+    "autoload": {
+    	"classmap": [
+    		"models"
+    	]
+    }
+}
